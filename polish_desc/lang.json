@@ -637,7 +637,7 @@
 			
 			"groupDisplay" : "EKRAN",
 			"fullscreen" : "Pełny Ekran",
-			"fullscreen.desc"  : "Whether or not the game is running in fullscreen rather than windowed-mode.",
+			"fullscreen.desc"  : "Przełącza grę z truby okna na tryb pełnoekranowy",
 			"resolution" : "Rozdzielczość obrazu",
 			"resolution.desc" : "The size of the game window when not running in fullscreen mode.",
 			"resolution.lockTooltip" : "The Windowed Resolution is not used when fullscreen mode is enabled.",
@@ -650,25 +650,25 @@
 			"pixelPerfect" : "Wymuś Zachowanie Proporcji",
 			"pixelPerfect.desc" : "(Zalecane) Forces the zoom scale to be an integer value.\nDisabling grants greater control over the zoom scale but may result in fuzzy pixels.",
 			"hudScale" : "Skala HUDu",
-			"hudScale.desc" : "The scale of the in-game HUD.",
-			"hudScale.lockTooltip" : "HUD Scale cannot be modified while Lock HUD Scale is enabled.",
+			"hudScale.desc" : "Skala HUDu podczas gry.",
+			"hudScale.lockTooltip" : "Skala HUDu nie moży być zmieniona gdy Blokada Skali HUDu jest włączona.",
 			"lockHudScale" : "Blokada Skali HUDu",
 			"lockHudScale.desc" : "Forces the in-game HUD Scale to match the Zoom Scale.",
 			"fullscreenDisplay" : "Wyświetlacz do Pełnego Ekranu",
 			"fullscreenDisplay.desc" : "The display device the window will appear on when running in fullscreen mode.\nSelecting \"Auto-Detect (Exclusive)\" will disable borderless mode but may provide increased compatibility.",
-			"mouselock" : "Lock Mouse to Game Window",
+			"mouselock" : "Zablokuj Myszkę do Okna Gry",
 			"mouselock.desc" : "Whether to lock the mouse cursor to the game window while in focus. Helpful to prevent accidentally clicking outside of the game window when using mouse control.",
 
-			"use_mouse_aim" : "Używać Celowania Myszką?",
-			"use_mouse_aim.desc" : "Uses the mouse cursor position for aiming applicable skills. When disabled, the 'Aim Left' and 'Aim Right' binds may be used to aim instead.\n\n<spr UITutorialAnimMouseaim 1 0.2>",
+			"use_mouse_aim" : "Celowanie Myszką",
+			"use_mouse_aim.desc" : "Gra będzie używać pozycji kursowa do celowania odpowiednimi umiejętnościami. Gdy ta opcja jest wyłączona, do celowania możesz używać klawiszy przypisanych do 'Celuj w lewo' i 'Celuj w prawo'.\n\n<spr UITutorialAnimMouseaim 1 0.2>",
 
 			"groupGraphics" : "GRAFIKA",
 			"graphics" : "Jakość",
-			"graphics.desc" : "Decrease to disable certain visual effects and lower particle count.\nMay help with performance on lower-end machines.",
+			"graphics.desc" : "Zmniejsz, aby wyłączyć niektóre efekty wizualne i zmniejszyć ilość cząsteczek.\nMoże pomóc z wydajnością na słabszym sprzęcie.",
 			"decreaseShaders" : "Zmniejsz Intensywność Efektów Graficznych",
-			"decreaseShaders.desc" : "Enable to remove certain shader-based graphical effects.\nMay help with performance on lower-end machines.",
+			"decreaseShaders.desc" : "Włącz, aby wyłączyć niektóre efekty graficzne oparte na shaderach.\nMoże pomóc z wydajnością na słabszym sprzęcie.",
 			"playerOutlines" : "Zarysy Graczy",
-			"playerOutlines.desc" : "Whether outlines should be displayed around players always, only in local co-op, or never.",
+			"playerOutlines.desc" : "Ustal, czy zarysy postaci podczas gry mają być zawsze wyświetlane, tylko w kooperacji lokalnej czy nigdy.",
 
 			"groupUI" : "INTERFEJS",
 			"uiScale" : "Skala Interfejsu",
@@ -778,7 +778,7 @@
 			"upd104Message" : "Horizontal Mouse Aim is now available.\n\nYou have controls bound to mouse buttons. Would you like to enable Horizontal Mouse Aim?\n\nThis can be enabled or disabled later from the controls menu.\n\n<spr UITutorialAnimMouseaim 1 0.2>"
 		},
 		"error" : {
-			"error" : "ERROR",
+			"error" : "BŁĄD",
 			"alert" : "An error has occurred. Saved to the logs folder.",
 			"alert.modError" : "A mod script error has occurred. Saved to the logs folder.",
 			"alert.gameError" : "A game code error has occurred. Saved to the logs folder.",
@@ -797,7 +797,7 @@
 			"connectionFailed.timedOut" : "Connection timed out.",
 			"disconnected" : "Disconnected from host.",
 			"timeout" : "The connection timed out.",
-			"lobbyClosed" : "Server closed by host."
+			"lobbyClosed" : "Serwer zamknięty przez hosta"
 		},
 
 		"modStatus" : {
