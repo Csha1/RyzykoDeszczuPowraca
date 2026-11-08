@@ -569,7 +569,7 @@
 			"startSingle" : "Gra Jednoosobowa",
 			"startLocal" : "Gra Wieloosobowa Lokalnie",
 			"startOnline" : "Gra Wieloosobowa Online",
-			"startTrials" : "Wyzwania Providence",
+			"startTrials" : "Próby Providence",
 			"logs" : "Dzienniki i wyzwania",
 			"scores" : "Statystyki i rekordy",
 			"options" : "Ustawienia",
@@ -986,16 +986,16 @@
 				"speed" : "Prędkość maks.: <b>%s km/h</c>",
 				"kills" : "Zabito: <y>%s</c>",
 				"eliteKills" : "Zabito Elitarnych: <y>%s</c>",
-				"deaths" : "Śmierci: <y>%s</c>",
+				"deaths" : "Zabił Cię <y>%s</c> razy",
 				"story" : "Notatki:",
-				"note" : "Monster Logs contain information, lore, and custom art of enemies found on the planet.\n\nMonster Log entries have a small chance of dropping whenever you kill an enemy.\n\n\nGood hunting!"
+				"note" : "Dzienniki Polowe zawierają informacje, historię, i specjalne rysunki przeciwników na planecie.\n\n Masz małą szansę na dostanie wpisu do Dziennika Polowego po zabiciu przeciwnika.\n\n\nUdanych łowów!"
 			}
 		},
 
 		"survivorLog" : {
 			"content" : {
 				"health" : "Zdrowie: <g>%s <c_stack>(+%s na poziom)",
-				"regen" : "Regenaracja PZ.: <g>%s <c_stack>(+%s na poziom)</c> hp/s",
+				"regen" : "Regenaracja PŻ.: <g>%s <c_stack>(+%s na poziom)</c> PŻ/s",
 				"damage" : "Obrażenia: <y>%s <c_stack>(+%s na poziom)",
 				"armor" : "Pancerz: <b>%s <c_stack>(+%s na poziom)",
 
@@ -1025,9 +1025,9 @@
 			"resultHighscore" : "Poprzedni Rekord:",
 			"resultIncomplete" : "Nieukończone",
 			"resultFailMinTime" : "Limit czasu:",
-			"resultFailMaxTime" : "Minimum Time:",
-			"resultFailMinPoints" : "Score Limit:",
-			"resultFailMaxPoints" : "Target Score:",
+			"resultFailMaxTime" : "Minimalny czas:",
+			"resultFailMinPoints" : "Limit punktów:",
+			"resultFailMaxPoints" : "Potrzebujesz punktów:",
 			"success" : "WYGRANA",
 			"failure" : "PRZEGRANA"
 		},
@@ -1406,8 +1406,8 @@
 		},
 		"guardiansHeart" : {
 			"name" : "Serce Strażnika",
-			"pickup" : "Dostajesz <b>60 <c_stack>(+60 na przedmiot) <b>punktów tarczy</c>. Ładuje się przy nieotrzymywaniu obrażeń po <b>7.</c> sekundach.",
-			"description" : "Dostajesz <b>60 <c_stack>(+60 na przedmiot) <b>punktów tarczy</c>. Ładuje się przy nieotrzymywaniu obrażeń po <b>7.</c> sekundach.",
+			"pickup" : "Dostajesz <b>60 <c_stack>(+60 na przedmiot) <b>punktów tarczy</c>. Ładuje się <b>7</c> po otrzymaniu obrażeń.",
+			"description" : "Dostajesz <b>60 <c_stack>(+60 na przedmiot) <b>punktów tarczy</c>. Ładuje się <b>7</c> po otrzymaniu obrażeń.",
 			"destination" : "1100 Fairview,\nResearch Center\nMars",
 			"date" : "16/09/2056",
 			"story" : "Test subject 150053 results. While living, the subject had advanced muscle growth, cell regeneration, higher agility, and increased intelligence, along with a blue hue to his skin. \nOn 08/23/2056, the subject broke free of his restraints and freed all other test subjects. All test subjects, including 150053, were terminated.\n\nHis heart seems to still beat independent of the rest of his body. Perhaps a transplant into another subject can continue research.",
@@ -1488,8 +1488,8 @@
 		},
 		"deadMansFoot" : {
 			"name" : "Stopa Umarlaka",
-			"pickup" : "Przy otrzymywaniu obrażeń masz szansę na upuszcenie <y>trującej miny</c> zadającej <y>150% obrażeń</c> i zatruwającej za <y>x600% <c_stack>(+450% na przedmiot) <y>obrażeń</c> rozłożonych w czasie.\nSzansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
-			"description" : "Przy otrzymywaniu obrażeń masz szansę na upuszcenie <y>trującej miny</c> zadającej <y>150% obrażeń</c> i zatruwającej za <y>x600% <c_stack>(+450% na przedmiot) <y>obrażeń</c> rozłożonych w czasie. Szansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
+			"pickup" : "Przy otrzymaniu obrażeń masz szansę na upuszczenie <y>trującej miny</c> zadającej <y>150% obrażeń</c> i zatruwającej za <y>x600% <c_stack>(+450% na przedmiot) <y>obrażeń</c> rozłożonych w czasie.\nSzansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
+			"description" : "Przy otrzymaniu obrażeń masz szansę na upuszczenie <y>trującej miny</c> zadającej <y>150% obrażeń</c> i zatruwającej za <y>x600% <c_stack>(+450% na przedmiot) <y>obrażeń</c> rozłożonych w czasie. Szansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
 			"destination" : "Planet IV,\nR.Night,\nUnknown",
 			"date" : "17/03/2056",
 			"story" : "Poor guy. It looked like he was infested by some bug-like creatures, and exploded when I got close. I hope his death wasn't too painful; his family will know how he died. Rest in peace.",
@@ -1514,8 +1514,8 @@
 		},
 		"panicMines" : {
 			"name" : "Mina",
-			"pickup" : "Przy otrzymywaniu obrażeń masz szansę na upuszczenie <y>1 <c_stack>(+1 na przedmiot) <y>miny</c> zadającej <y>400% damage</c>. Szansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
-			"description" : "Przy otrzymywaniu obrażeń masz szansę na upuszczenie <y>1 <c_stack>(+1 na przedmiot) <y>miny</c> zadającej <y>400% damage</c>. Szansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
+			"pickup" : "Przy otrzymaniu obrażeń masz szansę na upuszczenie <y>1 <c_stack>(+1 na przedmiot) <y>miny</c> zadającej <y>400% damage</c>. Szansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
+			"description" : "Przy otrzymaniu obrażeń masz szansę na upuszczenie <y>1 <c_stack>(+1 na przedmiot) <y>miny</c> zadającej <y>400% damage</c>. Szansa początkowa to <y>15%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
 			"destination" : "107.22.188.221,\nCrater Lake,\nNeptune",
 			"date" : "17/05/2056",
 			"story" : "Must be strapped onto vehicles, NOT personnel! After taking heavy fire, the automatic dispenser should drop and arm a mine to make a hasty retreat (or blow enemies sky-high who are dumb enough to follow.)\nIncludes smart-fire, but leave the blast radius regardless. The laws of physics don't pick sides. Very high yield for how small it is.\n\nIf you want to use it offensively.. then.. well just get shot. A lot. Preferably by small arms fire, or you'll die trying to have the mines drop."
@@ -1546,8 +1546,8 @@
 		},
 		"oldBox" : {
 			"name" : "Stare Pudełko",
-			"pickup" : "Przy otrzymywaniu obrażeń masz szansę na upuszczenie <y>klauna w pudełku</c>, <r>strasząc wrogów</c> na <y>2 <c_stack>(+1 na przedmiot) <y>sekundy</c>. Szansa początkowa to <y>10%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
-			"description" : "Przy otrzymywaniu obrażeń masz szansę na upuszczenie <y>klauna w pudełku</c>, <r>strasząc wrogów</c> na <y>2 <c_stack>(+1 na przedmiot) <y>sekundy</c>. Szansa początkowa to <y>10%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
+			"pickup" : "Po otrzymaniu obrażeń masz szansę na upuszczenie <y>klauna w pudełku</c>, <r>strasząc wrogów</c> na <y>2 <c_stack>(+1 na przedmiot) <y>sekundy</c>. Szansa początkowa to <y>10%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
+			"description" : "Po otrzymaniu obrażeń masz szansę na upuszczenie <y>klauna w pudełku</c>, <r>strasząc wrogów</c> na <y>2 <c_stack>(+1 na przedmiot) <y>sekundy</c>. Szansa początkowa to <y>10%</c> i zwiększa się kiedy masz <r>mało zdrowia</c>.",
 			"destination" : "Breezy Drive,\nMiddle-land,\nMars",
 			"date" : "04/05/2056",
 			"story" : "Musty, saggy, loose box. You can see it was used a lot already. Its bad shape honestly makes it scarier; you never know when the stupid thing pops out again. Sometimes it sits in there for days!"
@@ -2048,7 +2048,7 @@
 			"destination" : "1803\nCombat Zone\nVenus",
 			"priority" : "<w>High Priority</c>",
 			"date" : "12/09/2056",
-			"story" : "It's not much, but our damaged spares in the back of the warehouse should be better than nothing. I'm really putting myself in a bad spot doing this outside of regulations, but the treaties make it tough to send out the good stuff. I can't let my buddies just die out there because of some big-wigs who are afraid to get the job done.\nGive em a few smacks before loading and fire a shot or two inside before trusting the mags. Good luck out there. At least we haven't seen any restrictions on the meds.",
+			"story" : "It's not much, but our damaged spares in the back of the warehouse should be better than nothing. I'm really putting myself in a bad spot doing this outside of regulations, but the treaties make it tough to send out the good stuff. I can't let my buddies just die out there because of some big-wigs who are afraid to get the job done.\nGive em a few smacks before loading and fire a shot or two inside before trusting the mags. Good luck out there. At least we haven't seen any restrictions on the meds."
 		},
 		"hardlightAfterburner" : {
 			"name" : "Dopalacz na Twarde Światło",
@@ -2057,7 +2057,7 @@
 			"destination" : "P.O. Box 75\nCrassantett,\nMars",
 			"priority" : "<r>High Priority/Fragile</c>",
 			"date" : "22/07/2056",
-			"story" : "Take this somewhere PRIVATE before opening. Don't let your wife see, don't even let your kids see. I know you're 'out of the business' but this is the biggest haul we've ever done. They called this thing a 'hard lightburner' or something, and it's suppose to be infinite fuel. I don't know, I couldn't understand them from up in the vents but CAN YOU IMAGINE? Gas prices have been through the roof since the spill in 2040, imagine how much cash you could make just rigging this thing up to your neighborhood for a little somethin'-somethin'! Anyway, they said it was wicked dangerous and to rig it to something stable, so chain it down or something.\nSend back 50%\nRemember who had your back before you were a 'family man'",
+			"story" : "Take this somewhere PRIVATE before opening. Don't let your wife see, don't even let your kids see. I know you're 'out of the business' but this is the biggest haul we've ever done. They called this thing a 'hard lightburner' or something, and it's suppose to be infinite fuel. I don't know, I couldn't understand them from up in the vents but CAN YOU IMAGINE? Gas prices have been through the roof since the spill in 2040, imagine how much cash you could make just rigging this thing up to your neighborhood for a little somethin'-somethin'! Anyway, they said it was wicked dangerous and to rig it to something stable, so chain it down or something.\nSend back 50%\nRemember who had your back before you were a 'family man'"
 		},
 		"mocha" : {
 			"name" : "Mokka",
@@ -2066,7 +2066,7 @@
 			"destination" : "10 Sunway\nBldg. 3\nDurandal,\nHyperion",
 			"date" : "22/07/2056",
 			"priority" : "<r>High Priority/Biological</c>",
-			"story" : "Thank you for ordering with DropCup!\n--\nYour order should arrive in\n3 MONTHS\n--\nGet real time updates and special offers with the DropCup application!\n--\nOrder Details:\n1 Stacked Mocha (Triple-Shot)\n1 Napkins\n(Total: $19.94)",
+			"story" : "Thank you for ordering with DropCup!\n--\nYour order should arrive in\n3 MONTHS\n--\nGet real time updates and special offers with the DropCup application!\n--\nOrder Details:\n1 Stacked Mocha (Triple-Shot)\n1 Napkins\n(Total: $19.94)"
 		},
 		"bottledChaos" : {
 			"name" : "Chaos w Butelce",
@@ -2075,7 +2075,7 @@
 			"destination" : "<r>RETURN TO SENDER</c>",
 			"date" : "30/03/2056",
 			"priority" : "<r>High Priority/Fragile</c>",
-			"story" : "This horrid bottle fills me with fear. I can see reflections in the glass of things that are not there. My psychologist sees nothing in the bottle, but through the glass her face looks distorted beyond my understanding. I can't carry it anymore, I'm sorry. It's only been three days but I can't sleep with the sound of clacking and rattling occupying my dreams. Give it to someone else for safekeeping, I don't care about the job.",
+			"story" : "This horrid bottle fills me with fear. I can see reflections in the glass of things that are not there. My psychologist sees nothing in the bottle, but through the glass her face looks distorted beyond my understanding. I can't carry it anymore, I'm sorry. It's only been three days but I can't sleep with the sound of clacking and rattling occupying my dreams. Give it to someone else for safekeeping, I don't care about the job."
 		},
 		"umbrella" : {
 			"name" : "Parasol",
@@ -2084,7 +2084,7 @@
 			"destination" : "2 Grumpy Old Men Rd.\nOrofino\nIdaho,\nEARTH",
 			"date" : "03/08/2060",
 			"priority" : "<r>Standard</c>",
-			"story" : "Thank you for ordering the Crossplat Umbrella Infinitive! Your order should arrive in 5 to 10 business years! Look forward to a drier tomorrow! Guaranteed to protect from all weather conditions from a light drizzle up to a heavy downpour*!\nSpecial Warranty period secures this product for up to 1 year.\n\n*Umbrella quality only guaranteed for up to 8 seconds.",
+			"story" : "Thank you for ordering the Crossplat Umbrella Infinitive! Your order should arrive in 5 to 10 business years! Look forward to a drier tomorrow! Guaranteed to protect from all weather conditions from a light drizzle up to a heavy downpour*!\nSpecial Warranty period secures this product for up to 1 year.\n\n*Umbrella quality only guaranteed for up to 8 seconds."
 		},
 		"orbiter" : {
 			"name" : "Niknąca Próbka",
@@ -2093,7 +2093,7 @@
 			"destination" : "Hare Run Labs\n1 Lab Way\nCryon,\nJupiter",
 			"date" : "26/02/2056",
 			"priority" : "<r>High Priority/Fragile</c>",
-			"story" : "Our lab is about finished with this. We agreed that without additional funding, we'd have to ship it back out to complete the project - so here it is. The fields are a bit unstable currently without additional shielding, and the sample you provided was less than ideal, but I would say given the test results we're operating at at least 75% of the efficiency goal. I would recommend that you find a sample with less copper impurities, less than 50 ppm to reach optimal results.",
+			"story" : "Our lab is about finished with this. We agreed that without additional funding, we'd have to ship it back out to complete the project - so here it is. The fields are a bit unstable currently without additional shielding, and the sample you provided was less than ideal, but I would say given the test results we're operating at at least 75% of the efficiency goal. I would recommend that you find a sample with less copper impurities, less than 50 ppm to reach optimal results."
 		},
 		"aegis" : {
 			"name" : "Egida",
@@ -2101,7 +2101,7 @@
 			"description" : "Leczenie ponad limit daje Ci <g>barierę</c> równą <g>50% <c_stack>(+50% na przedmiot)</c> <g>leczonego zdrowia</c>. Zwiększa <g>maksymalną ilość bariery</c> o <g>20% <c_stack>(+20% na przedmiot)</c>.",
 			"destination" : "Bldg. 1\n3 Wry Ave.\nTheworl,\nTitan",
 			"date" : "20/10/2056",
-			"story" : "Hey boss, in the crate you should find a couple of the artifacts from our last dig in that secret room. You should see 5 items, we stored them in foam. Should be an ornamental shield, some kind of shortsword or dagger, half of a crown, and two shreds of some kind of stiff fabric. Be careful handling the fabric, feels like it could crumble with just slight pressure. The shield must be hollow or something, it's unusually light. I know you are, but be extra careful with it. Don't let the students even breathe on it.",
+			"story" : "Hey boss, in the crate you should find a couple of the artifacts from our last dig in that secret room. You should see 5 items, we stored them in foam. Should be an ornamental shield, some kind of shortsword or dagger, half of a crown, and two shreds of some kind of stiff fabric. Be careful handling the fabric, feels like it could crumble with just slight pressure. The shield must be hollow or something, it's unusually light. I know you are, but be extra careful with it. Don't let the students even breathe on it."
 		},
 		"topazBrooch" : {
 			"name" : "Topazowa Broszka",
@@ -2109,7 +2109,7 @@
 			"description" : "Zabicie przeciwnika daje Ci <g>15 pkt. bariery <c_stack>(+15 na przedmiot)</c>.",
 			"destination" : "Facility 2\n2 Sentry Way\nLightyard,\nVenus",
 			"date" : "16/08/2056",
-			"story" : "Thank you for doing business. This shipment of brooches should find your operatives well. The functionality activates with just a single press, and use may be extended through applications of iron-rich substances. In the case of dysfunction, please send them back for repair. We will be awaiting your positive review. \n\nRemember we went public a few weeks ago, I'm sure we'd all like to enjoy the benefits together.\n\n//RoMantek Technologies Ltd.",
+			"story" : "Thank you for doing business. This shipment of brooches should find your operatives well. The functionality activates with just a single press, and use may be extended through applications of iron-rich substances. In the case of dysfunction, please send them back for repair. We will be awaiting your positive review. \n\nRemember we went public a few weeks ago, I'm sure we'd all like to enjoy the benefits together.\n\n//RoMantek Technologies Ltd."
 		},
 		"voltaicMitt" : {
 			"name" : "Galwaniczna Rękawica",
@@ -2134,7 +2134,7 @@
 			"description" : "<r>Po aktywacji teleportera</c> zwiększa <y>prędkość poruszania</c> o <b>30%</c> <c_stack>(+30% na przedmiot)</c>.",
 			"destination" : "5 Tiptop Rd.\nNeverrock,\nMars",
 			"date" : "08/05/2056",
-			"story" : "HEY KID!! happy birthday i found these old skates in the attic they were granddads but they look great.. you were talking about getting more exercise last time you visited these should do the trick. \nma is still obsessed with her garden you should visit next summer and see how crazy she is \ndo you still have that boyfriend?? mom wants to know when your getting married haha\nCALL ME SOMETIME!!!!\nDAD",
+			"story" : "HEY KID!! happy birthday i found these old skates in the attic they were granddads but they look great.. you were talking about getting more exercise last time you visited these should do the trick. \nma is still obsessed with her garden you should visit next summer and see how crazy she is \ndo you still have that boyfriend?? mom wants to know when your getting married haha\nCALL ME SOMETIME!!!!\nDAD"
 		},
 		"razorPenny" : {
 			"name" : "Ostry Grosz",
@@ -3278,11 +3278,11 @@
 		},
 		"drifterV" : {
 			"name" : "Odzysk",
-			"description" : "Zużyj duża ilość <b>złomu</c>, aby stworzyć <y>4</c> <b>tymczasowych</c> <y>przedmiotów</c>."
+			"description" : "Zużyj dużą ilość <b>złomu</c>, aby stworzyć <y>4</c> <b>tymczasowe</c> <y>przedmiotów</c>."
 		},
 		"drifterVBoosted" : {
 			"name" : "Przywrócenie",
-			"description" :"Zużyj duża ilość <b>złomu</c>, aby stworzyć <y>6</c> <b>tymczasowe</c> <y>przedmiotów</c>."
+			"description" :"Zużyj dużą ilość <b>złomu</c>, aby stworzyć <y>6</c> <b>tymczasowych</c> <y>przedmiotów</c>."
 		},
 		"drifterX2" : {
 			"name" : "Kostka Złomu",
@@ -3326,8 +3326,8 @@
 		},
 		"playerDroneZ" : {
 			"name" : "Strzał",
-			"description" : "Wystrzel raz, zadając <y>80% obrażeń</c>."
-		},
+			"description" : "Wystrzel strzał zadający <y>80% obrażeń</c>."
+		}
 	},
 	"survivor" : {
 		"chef" : {
@@ -3335,18 +3335,17 @@
 			"description" : "The <y>CHEF</c> is extremely proficient at dealing with large groups of customers. Combining a delicous <y>Glaze</c> with a finishing <y>Sear</c> is sure to dazzle even the toughest of crowds!",
 			"name" : "SZEF",
 			"nameUpper" : "SZEF",
-			"story" : "<ul>Warrantee Expiration:\n4/10/2063\n\n<ul>CHEF Included Manual:</c>\nThank you for purchasing the CHEF Model-A robotic kitchen assistant! Automated cooking has made rapid advancements in the last decade and our Model-A line of robots have been trained with the most recent in culinary AI datasets. CHEF models operate with very little oversight and adapt to the desires of your friends and family in only a day's worth of calibration! They can prepare meals efficiently with any provided ingredients and cookware or even improvise in a pinch! Perfect for your home, business or even on the road, you can utilize any of it's 8 included emotive pre-sets to align to your tastes in a hurry! Please refer to safety instructions for additional information.\n\n<b>[SAFETY INSTRUCTIONS]</c>\n<ul>[1]</c> READ THE MANUAL BEFORE ATTEMPTING TO OPERATE.\n<ul>[2]</c> Though product is water-resistant, do not immerse in water or any other liquids to avoid electric shock.\n<ul>[3]</c> Do not attempt to manually fill oil stores. Overfilling oil stores may cause a fire hazard.\n<ul>[4]</c> Keep all exhaust ports clear of any potential blockage to prevent combustion.\n<ul>[5]</c> Do not place unauthorized biological* materials inside cooking bay.\n<ul>[5a]</c> Refer to Mars humanity statutes for a complete list of unauthorized materials.",
-            
+			"story" : "<ul>Warrantee Expiration:\n4/10/2063\n\n<ul>CHEF Included Manual:</c>\nThank you for purchasing the CHEF Model-A robotic kitchen assistant! Automated cooking has made rapid advancements in the last decade and our Model-A line of robots have been trained with the most recent in culinary AI datasets. CHEF models operate with very little oversight and adapt to the desires of your friends and family in only a day's worth of calibration! They can prepare meals efficiently with any provided ingredients and cookware or even improvise in a pinch! Perfect for your home, business or even on the road, you can utilize any of it's 8 included emotive pre-sets to align to your tastes in a hurry! Please refer to safety instructions for additional information.\n\n<b>[SAFETY INSTRUCTIONS]</c>\n<ul>[1]</c> READ THE MANUAL BEFORE ATTEMPTING TO OPERATE.\n<ul>[2]</c> Though product is water-resistant, do not immerse in water or any other liquids to avoid electric shock.\n<ul>[3]</c> Do not attempt to manually fill oil stores. Overfilling oil stores may cause a fire hazard.\n<ul>[4]</c> Keep all exhaust ports clear of any potential blockage to prevent combustion.\n<ul>[5]</c> Do not place unauthorized biological* materials inside cooking bay.\n<ul>[5a]</c> Refer to Mars humanity statutes for a complete list of unauthorized materials."
 		},
 		"engineer" : {
 			"endQuote" : "..and so he left, more steel and circuit than man.",
 			"description" : "The <y>Engineer</c> relies on <y>proper placement</c> of <y>Mines and Turrets</c>. Use <y>Tri-nade</c> and <y>Thermal Harpoons</c> to <y>hit enemies from safe areas.</c> Always place all your mines and turrets before activating the teleporter!",
-			"name" : "Inzynier",
+			"name" : "Inżynier",
 			"nameUpper" : "INZYNIER",
 			"story" : "<ul>Passenger Details:\n<y>[Civilian Class]\n\n<ul>Luggage & Equipment:</c>\nPassenger boarded with a modified CronTech cybernetic enhancement suit. Attached 'projectile launchers' have been welded in places and could not be removed by security personnel, so temporary electrical auto-nullifiers have been attached until landing. Individual also checked 4 large anti-ballistic crates into the loading bay, which showed heavy machinery in the preliminary security x-rays. Crates marked as containing 'de-activated security turrets', 'anti-personnel hardware', and a 'large experimental fission array'. All associated batteries were removed and stored in adjacent bays in automated lockboxes.\n\n<b>[SECURITY RECALL]</c>\n<ul>[Event G1]</c> Major blast occured in loading bay 4A, originating from the individual's largest crate, causing an automated lockdown which had to be manually resolved. Container shifted into bay 4B and placed behind all of the passenger's other loaded cargo.\n<ul>[Event G2]</c> Passenger walked too close to generator room, causing applied electrical auto-nullifiers to suddenly remagnetize. Personnel summoned to remove passenger from door.",
-            "id" : "Travel ID: 353494D414255434",
+            "id" : "Identyfikator Podróży: 353494D414255434",
             "departure"  : "<y>Departure:</c>\nOutpost Shipping & Transit,\nAsteroid 94N,\nBelt Num. 1900,\nSargasso System",
-            "arrival" : "<y>Destination:</c>\nGreat Hope Station,\nGreat Hope,\nMars"
+            "arrival" : "<y>Cel podróży:</c>\nGreat Hope Station,\nGreat Hope,\nMars"
 		},
 		"sniper" : {
 			"endQuote" : "..and so they left, the sound still ringing in deaf ears.",
@@ -3354,9 +3353,9 @@
 			"name" : "Snajper",
 			"nameUpper" : "SNAJPER",
 			"story" : "<ul>Passenger Details:\n<y>[Military Class]\n\n<ul>Luggage & Equipment:</c>\nSoldier boarded with a standard military reconnaissance personnel uniform, a 2050-0 sniper rifle and a traditional surveillance drone. The rifle and drone were cleared by the military checkpoint ahead of boarding, though the passenger opted to keep the drone with their carry-on luggage. Passenger and military associates insisted that the rifle stay with their own personnel, but allowed the rifle to be unloaded before boarding, with rounds stored in an automated lockbox. The soldier's personal affects included energy cells, canned goods, and a package of cooling gel sheets.\n\n<b>[SECURITY RECALL]</c>\n<r>[Note S1a]</c> Contact Light personnel has been instructed by the Deimos military to not mention the conflict occuring currently in the Boron system.\n<r>[Note S1b]</c> Contact Light personnel has been instructed by the Deimos military to delete records of additional hardware loaded alongside their soldier.",
-            "id" : "Travel ID: 142525544524553545341445",
+            "id" : "Identyfikator Podróży: 142525544524553545341445",
             "departure"  : "<y>Departure:</c>\nMilitary Base,\nNorthern Side,\nDeimos",
-            "arrival" : "<y>Destination:</c>\nFort Reason,\nBelt Num.1053,\n[REDACTED]\nBoron System"
+            "arrival" : "<y>Cel podróży:</c>\nFort Reason,\nBelt Num.1053,\n[REDACTED]\nBoron System"
 		},
 		"miner" : {
 			"endQuote" : "..and so he left, adrenaline still rushing through his veins.",
@@ -3364,19 +3363,19 @@
 			"name" : "Górnik",
 			"nameUpper" : "GÓRNIK",
 			"story" : "<ul>Passenger Details:\n<y>[Civilian Class]\n\n<ul>Luggage & Equipment:</c>\nPassenger boarded with a weather-emergency graded exosuit and standardized heat protection mask, modified for additional vaccuum safety. Exosuit appeared to have taken significiant heat damage, but technically passed inspection. Passenger was warned about potential risk of suffocation in the case of a vaccuum event should the suit deteriorate further. Security personnel has allowed the individual to keep their pickaxe in their carry-on, as it was deemed too awkward to pose a legitimate threat as a weapon. United States identification was long out of date, but the worker's Holdout mining records verified their identity. Additional luggage included a lighter, receipts and a small photo album.\n\n<b>[SECURITY RECALL]</c>\n<ul>[No recorded events.]</c>",
-            "id" : "Travel ID: E4F43444E494755425",
+            "id" : "Identyfikator Podróży: E4F43444E494755425",
             "departure"  : "<y>Departure:</c>\nHoldout Shipping & Recieving,\nHearthholme,\nUranus",
-            "arrival" : "<y>Destination:</c>\nChicago Grand Terminal,\nUnited States,\nEarth"
+            "arrival" : "<y>Cel podróży:</c>\nChicago Grand Terminal,\nUnited States,\nEarth"
 		},
 		"huntress" : {
 			"endQuote" : "..and so she left, her soul still remaining on the planet.",
 			"description" : "The <y>Huntress</c> is extremely proficient at <y>'kiting'</c> (running and firing while remaining unhurt). Remember that <y>Laser Glaive</c> does the <y>highest damage on the last bounce</c>! <y>Blink</c> can be used to <y>reposition or re-aim abilities</c>, and <y>Cluster Bomb</c> can take out grouped up enemies at range.",
-			"name" : "Lowczyni",
+			"name" : "Łowczyni",
 			"nameUpper" : "LOWCZYNI",
 			"story" : "<ul>Passenger Details:\n<y>[Civilian Class]\n\n<ul>Luggage & Equipment:</c>\nPassenger boarded with Agile-Class Hunter armor. Warp drives were aged, but only posed a malfunctioning risk to the individual, and thus passed safety clearances. Carbon fiber components appear damaged but still within acceptible vaccuum-graded limits. Red coloration noted as in some sectors it signifies a potential mercenary for hire. Individual also boarded with a Lightbow and a Tri-Rang variant, both of which have been packed into automated lockboxes until arrival. Lightbow showed signs of modification, but due to civilians having to pack away weaponry, inspection was kept to E-Class standards. Tri-Rang variant rattles persistently inside of lockbox, but was accepted by both passenger and security personnel.\n\n<b>[SECURITY RECALL]</c>\n<ul>[Event H1]</c> Individual found scratching at lockbox seams. Automated security alerts were not triggered.\n<ul>[Event H2]</c> Individual appears to only sleep 3 hours per night and often avoids line of sight with cameras.",
-            "id" : "Travel ID: 54C49474142564",
+            "id" : "Identyfikator Podróży: 54C49474142564",
             "departure"  : "<y>Departure:</c>\nInfinite Seaport,\nSpirestone,\nJupiter",
-            "arrival" : "<y>Destination:</c>\nNorth Station,\nPrism Tower,\nEarth"
+            "arrival" : "<y>Cel podróży:</c>\nNorth Station,\nPrism Tower,\nEarth"
 		},
 		"acrid" : {
 			"endQuote" : "..and so it left, with a new hunger; to be left alone.",
@@ -3393,19 +3392,19 @@
 			"name" : "Najemnik",
 			"nameUpper" : "NAJEMNIK",
 			"story" : "<ul>Passenger Details:\n<y>[Business Class]\n\n<ul>Luggage & Equipment:</c>\nPassenger boarded with a Tacton branded YMI armorset and a high-velocity vibroblade. Though it passed inspection, the individual's armor was equipped with an electrical auto-nullifier due to Tacton armor being known for its offensive capabilities. The passenger insisted that the vibroblade would remain sheathed for the duration of the flight but for security reasons it was stored in an energy-resistant automated lockbox. Individual also boarded with an electrical frequency refiner, a spare set of Mushin shoulderpads, and replacement carbon fiber exhaust tubing. An additional dagger was requested to be taken in the carry-on, but after being denied the passenger left it at port.\n\n<b>[SECURITY RECALL]</c>\n<ul>[Note M1a]</c> Passenger's employer instructed UES personnel before boarding to 'allow him to be solitary'.\n<ul>[Event M1]</c> Contracted commando instructs passenger to return to their quarters at gunpoint after violent outburst.\n<ul>[Event M1]</c> Minor altercation between officer and mercenary-class passenger resulting in them being separated.",
-            "id" : "Travel ID: 45E454D405948435E41454E4",
+            "id" : "Identyfikator Podróży: 45E454D405948435E41454E4",
             "departure"  : "<y>Departure:</c>\nOlympus Spaceport,\nPlymouth,\nSaturn",
-            "arrival" : "<y>Destination:</c>\nMusashi International Port,\nJapan,\nEarth"
+            "arrival" : "<y>Cel podróży:</c>\nMusashi International Port,\nJapan,\nEarth"
 		},
 		"loader" : {
 			"endQuote" : "..and so he left, ready to rebuild his life, brick by brick.",
 			"description" : "The <y>Loader</c> is a high damage close combatant with a unique skill. <y>Hydraulic Gauntlet</c> can be used to rapidly reposition, or to place <y>Conduits</c> far apart. Use <y>Debris Shield</c> as a hit-and-run shield.",
-			"name" : "Ladowniczka",
+			"name" : "Ładowniczka",
 			"nameUpper" : "LADOWNICZKA",
 			"story" : "<ul>Passenger Details:\n<g>[Employee Class]\n\n<ul>Employee Details:</c>\nEach UES loader-class employee comes equipped with a state-of-the-art titanium exoskeleton capable of lifting up to 245 tons (Additional 90+ ton hauling capability with winch attachment). Modern advancements have made employment opportunities at UES accessible to any and all peoples regardless of size, strength, age, or species! All employees are responsible for maintenance of their patented exosuits and unauthorized use is defined and restricted as per UES Manual Guide p358-390. Employees aboard the UES Contact Light are permitted to wear Safety Yellow, Safety Blue, Safety Green, or Safety Red exosuits. Please report to bay safety personnel for more details pertaining to individual departure safety regulations.\n\n<b>[SECURITY RECALL]</c>\n<ul>[Event L1]</c> Employee requested early leave from the loading bay 50 minutes before departure. Request granted.\n<ul>[Event L2]</c> Employee instructed to remove loader-class exoskeleton after being seen wearing it after-hours.\n<ul>[Event L1a]</c> <ul>Employee observed taking additional lunch breaks.</c>\n<ul>[Event L1b]</c> <ul>Employee observed inappropriately inspecting contents of cargo bay crates and containers.</c>",
-            "id" : "Travel ID: 2555F464954525F464",
+            "id" : "Identyfikator Podróży: 2555F464954525F464",
             "departure"  : "<y>Departure:</c>\nUES Shipping Dock 5,\nRedview,\nMars",
-            "arrival" : "<y>Destination:</c>\nUES Shipping Dock 0,\nRedview,\nMars"
+            "arrival" : "<y>Cel podróży:</c>\nUES Shipping Dock 0,\nRedview,\nMars"
 		},
 		"hand" : {
 			"endQuote" : "..and so it left, servos pulsing with new life.",
@@ -3420,9 +3419,9 @@
 			"name" : "Komando",
 			"nameUpper" : "KOMANDO",
 			"story" : "<ul>Passenger Details:\n<g>[Boarded per UES request for additional security.]\n\n<ul>Luggage & Equipment:</c>\nContractor equipped with Standard MARCH Mk. II Commando armor. Built for light recoil, physical and energy-based projectile resistance, and minor space travel capabilities. Suit appended with intelligent biofoam dispensers and a lightweight solar battery. Notably, this unit has its AI component chip removed, with significant damage around the interface port. Individual also cleared two military grade semi-automatic pistols and one utility stagger blade. Stagger blade is to be held in carrying case at all times to prevent potential genetic damage in civilian passengers. Pistols cleared as standard, ammo provided on-board in multiple lockboxes.\n\n<b>[SECURITY RECALL]</c>\n<ul>[Event C1]</c> Individual requested cargo hold access to 'stretch their legs'. Hold access granted due to history with company.\n<ul>[Event C2]</c> Individual granted access to captain's quarters under request of captain.",
-            "id" : "Travel ID: 45133554F44495351454",
+            "id" : "Identyfikator Podróży: 45133554F44495351454",
             "departure"  : "<y>Departure:</c>\nAlpha Base,\nNew Appalachian Crest,\nMars",
-            "arrival" : "<y>Destination:</c>\n[Round Trip]\nAlpha Base,\nNew Appalachian Crest,\nMars"
+            "arrival" : "<y>Cel podróży:</c>\n[Round Trip]\nAlpha Base,\nNew Appalachian Crest,\nMars"
 		},
 		"enforcer" : {
 			"endQuote" : "..and so he left, mutated beyond recognition.",
@@ -3430,9 +3429,9 @@
 			"name" : "Ochroniarz",
 			"nameUpper" : "OCHRONIARZ",
 			"story" : "<ul>Passenger Details:\n<y>[Business Class]\n\n<ul>Luggage & Equipment:</c>\nOfficer boarded with 2055 Heavy-SWAT variant police gear, an SDN standardized auto-shotgun (with grenade launcher attachment), and a vaccuum-grade blast shield. All equipment recently granted and cleared ahead of time by Old Alcatraz's Department of Migrations and Transfers. Security clearance granted to carry firearm at all times, though spacefaring laws puts officers outside of primary jurisdictions. Officer also boarded with a satchel containing personal affects including training weights, a selection of books, and a jumprope, all cleared by security at boarding. \n\n<b>[SECURITY RECALL]</c>\n<ul>[Event E1]</c> Officer's serviceman ID lacked a name, but the numerical ID# was accepted by the identification archival system as a prior passenger.\n<ul>[Event E2]</c> Minor altercation between officer and mercenary-class passenger resulting in them being separated.",
-            "id" : "Travel ID: 255444C454",
+            "id" : "Identyfikator Podróży: 255444C454",
             "departure"  : "<y>Departure:</c>\nOld Alcatraz,\nRustborough,\nMars",
-            "arrival" : "<y>Destination:</c>\nSubstation A1,\nCalifornian Republic,\nEarth"
+            "arrival" : "<y>Cel podróży:</c>\nSubstation A1,\nCalifornian Republic,\nEarth"
 		},
 		"bandit" : {
 			"endQuote" : "..and so he left, with his pyrrhic plunder.",
@@ -3449,9 +3448,9 @@
 			"name" : "Pilot",
 			"nameUpper" : "PILOT",
 			"story" : "<ul>Passenger Details:\n<g>[Employee Class]\n\n<ul>Employee Details:</c>\nUnited Enterprise Shipping invites pilots from across the known universe to apply to our Preferred Pilot Enhanced Commissions program! Benefits include access to cybernetic impact augmentations for easier landings, Weapons and Securities certification programs, and luxurious vacation opportunities! (Applicants expected to apply 5 years in advance of flight operations. Cybernetics not guaranteed to all program participants. Weapons and Securities certificates only valid through UES employment. All opportunities are listed as-is and no further gratuities, opportunities or benefits are to be assumed regardless of updates to space maritime law on participating planets.)\n\n<b>[SECURITY RECALL]</c>\n<ul>[Event P1]</c> Employee briefly lost consciousness while manning ship. Auto-pilot engaged and woke employee.\n<ul>[Event P2]</c> <r>[OVERRIDE]</c> SOS HULL BEING RAPIDLY APPROACHED BY UNKNOWN VIOLENT ENTITIES. LOCATION UNLISTED PLANET V. EJECT BLACK BOX, DESTINATION MARS BASE.",
-            "id" : "Travel ID: 54D49445F564C41484",
+            "id" : "Identyfikator Podróży: 54D49445F564C41484",
             "departure"  : "<y>Departure:</c>\nUES Shipping Dock 5,\nRedview,\nMars",
-            "arrival" : "<y>Destination:</c>\nUES Shipping Dock 0,\nRedview,\nMars"
+            "arrival" : "<y>Cel podróży:</c>\nUES Shipping Dock 0,\nRedview,\nMars"
 		},
 		"arti" : {
 			"endQuote" : "..and so she left, passions faded to an ember.",
@@ -3459,25 +3458,25 @@
 			"name" : "Wynalazca",
 			"nameUpper" : "WYNALAZCA",
 			"story" : "<ul>Passenger Details:\n<y>[Business Class]\n\n<ul>Luggage & Equipment:</c>\nHigh Court passenger equipped with standard ENV suit. Due to UES relations with the High Court and its donors, both the ENV suit itself and the individual's carry-on have had security checks waived. Passenger willingly attached electrical auto-nullifiers to both of their handheld generators, though lights remained active even after magnetized. Passenger requested to have various analytical devices scanned and recorded through security gates, though the exact nature of these devices was unable to be ascertained by security personnel. <ul>(See security recall for personnel notes.)</c>\n\n<b>[SECURITY RECALL]</c>\n<ul>[Note A1a]</c> Device 1 recorded as a foreign generator in the shape of a titration flask. Passed through x-rays safely, though the resulting image was warped.\n<ul>[Note A1b]</c> Device 2 unable to be lifted by security personnel. High Court passenger assisted in placing in loading bay. Device appeared to be a solid steel cube with no discernible markings.\n<ul>[Note A1c]</c> Individual requested Device 3 not be passed through x-ray terminal. Recorded as 'additional helmet'.\n<ul>[Note A1d]</c> Device 4 recorded as a chest filled with elemental samples.",
-            "id" : "Travel ID: F4E41434C4F465",
+            "id" : "Identyfikator Podróży: F4E41434C4F465",
             "departure"  : "<y>Departure:</c>\nHigh Court Outpost E1,\n[REDACTED]",
-            "arrival" : "<y>Destination:</c>\n[REDACTED]"
+            "arrival" : "<y>Cel podróży:</c>\n[REDACTED]"
 		},
 		"drifter" : {
 			"endQuote" : "...and so she left, hands cold and still hungry.",
 			"description" : "The <y>Drifter</c> is a resourceful brawler with a uniquely supportive playstyle. Generate <y>scrap</c> with <y>Blunt Force</c> and <y>Suffocate</c> in order to <y>Salvage</c> them into a powerful bundle of temporary items for you or your allies.",
-			"name" : "Drifter",
-			"nameUpper" : "DRIFTER",
+			"name" : "Włóczęga",
+			"nameUpper" : "WLOCZEGA",
 			"story" : "<ul>Passenger Details:\n<y>[Civilian Class]\n\n<ul>Luggage & Equipment:</c>\nPassenger boarded with a 2023 A-series generic spacesuit rated for civilian travel and minor vaccuum resistance. Passenger was warned about their suit reaching EOL and was allowed onboard with a red stamp on their passport. For security reasons, passenger was patted down due to their coat appearing oversized*. Passenger attempted to board with 3 backpacks and 2 duffel bags. After being informed that their carry-on limit was one container, they dropped the additional bags and quickly passed through the terminal. A manual search showed that the remaining backpack contained various pieces of scrap metal, opened food containers, and multiple small tools.\n\n<b>[SECURITY RECALL]</c>\n<ul>[Event D1]</c> Passenger's travel ticket had it's destination markers destroyed by heavy weathering. Upon questioning, the passenger indicated that 'the full trip would be fine'. Ticket destination manually marked as Contact Light's port of origin.\n<ul>[Event D2]</c> Passenger warned by ship personnel to 'stop hiding additional utensils in their pockets' during mealtimes.",
-            "id" : "Travel ID: 44E454F58445145444",
+            "id" : "Identyfikator Podróży: 44E454F58445145444",
             "departure"  : "<y>Departure:</c>\nAsteroid Substation Gamma,\nSector 2,\nSaturnian Belt",
-            "arrival" : "<y>Destination:</c>\nUES Shipping Dock 0,\nRedview,\nMars"
+            "arrival" : "<y>Cel podróży:</c>\nUES Shipping Dock 0,\nRedview,\nMars"
 		},
 		"robomando" : {
 			"endQuote" : "...and so it left nothing behind.",
 			"description" : "Your <y>Robomando</c> model G comes equipped with everything it needs to <y>extract resources</c> from hostile environments. Its patented <y>RE-WIRE</c> allows instant access to any company sanctioned containers or drone utilities.",
 			"name" : "ROBOMANDO",
-			"nameUpper" : "ROBOMANDO",
+			"nameUpper" : "ROBOMANDO"
 		}
 	},
 	
@@ -3494,115 +3493,115 @@
 		"titleLocked" : "[ZABLOKOWANE]",
 		"titleComplete" : "[UKOŃCZONE]",
 		"descFormatLocked" : "%s",
-		"descHidden" : "You cannot unlock this yet.",
-		"descArtifactLocked" : "<p>Artifacts</c> can be found in hidden locations on the planet, enabling <y>alternate game options.",
-		"locked" : "LOCKED",
-		"item" : "Item",
-		"equipment" : "Equipment",
-		"skill" : "Skill",
-		"skin" : "Skin",
-		"artifact" : "Artifact",
-		"cond_online_wins" : "Win %s online games.",
-		"cond_online_wins_1" : "Win 1 online game.",
-		"cond_online_plays" : "Play %s online games."
+		"descHidden" : "Jeszcze nie możesz tego odblokować.",
+		"descArtifactLocked" : "<p>Artefakty</c> są pochowane w różnych zakątkach planety i odblokowują <y>dodatkowe modyfikatory rozgrywki</y>.",
+		"locked" : "ZABLOKOWANE",
+		"item" : "Przedmiot",
+		"equipment" : "Wyposażenie",
+		"skill" : "Umiejętnosć",
+		"skin" : "Skórka",
+		"artifact" : "Artefakt",
+		"cond_online_wins" : "Wygraj %s. gier online.",
+		"cond_online_wins_1" : "Wygrak 1. grę online.",
+		"cond_online_plays" : "Zagraj %s. gier online."
 	},
 
 	"difficulty" : {
 		"easy.name" : "Mżawka",
-		"easy.description" : "Reduces difficulty for players new to the game.\nWeeping and gnashing is replaced by laughter and tickles.",
+		"easy.description" : "Obniżony poziom trudności dla nowych graczy.\nPłacz i zgrzywanie zębów zamieniliśmy na śmiech i łaskotki.",
 		"normal.name" : "Ulewa",
-		"normal.description" : "The way the game is meant to be played!\nTest your abilities and skills against formidable foes.",
+		"normal.description" : "Tak powinno się grać w tę grę!\nWypróbuj swoje umiejętności w walce z silnymi przeciwnikami.",
 		"hard.name" : "Monsun",
-		"hard.description" : "For hardcore players.\nEvery bend introduces pain and horrors of the planet.\nYou will die."
+		"hard.description" : "Dla doświadczonych graczy.\nBól i cierpienie znajdziesz w każdym zakątku planety.\nUmrzesz."
 	},
 
 	"achievement" : {
-		"unlocked" : "CHALLENGE COMPLETE",
-		"completed" : "'%s' Unlocked.",
-		"skinCompleted" : "New Skin Unlocked.",
-		"available" : "This content is now available.",
-		"unlockHeader" : "NEW UNLOCK!",
+		"unlocked" : "WYZWANIE UKOŃCZONE",
+		"completed" : "Odblokowano: '%s'.",
+		"skinCompleted" : "Odblokowane nową skórkę.",
+		"available" : "Ta zawartość jest teraz dostępna.",
+		"unlockHeader" : "NOWE!",
 		"unlockNamePlaceholder" : "???",
-		"available:item" : "This item will now drop.",
-		"available:equipment" : "This equipment will now drop.",
-		"available:survivor" : "This survivor is now playable.",
-		"available:artifact" : "This artifact may now be enabled.",
-		"available:skin" : "This skin may now be selected.",
-		"available:skill" : "This skill may now be equipped.",
-		"available:mode" : "This mode can now be played.",
-		"unlockHeader:item" : "NEW ITEM UNLOCKED!",
-		"unlockHeader:equipment" : "NEW EQUIPMENT UNLOCKED!",
-		"unlockHeader:survivor" : "NEW SURVIVOR UNLOCKED!",
-		"unlockHeader:artifact" : "NEW ARTIFACT UNLOCKED!",
-		"unlockHeader:skin" : "NEW SKIN UNLOCKED!",
-		"unlockHeader:skill" : "NEW SKILL UNLOCKED!",
-		"unlockHeader:mode" : "NEW MODE UNLOCKED!",
-		"trialDescTemplate" : "Complete the Providence Trial \"%s\".",
-		"trialFinalDescTemplate" : "Complete the final Providence Trial as %s.",
-		"unlock_gamemode_trials.name" : "Divine Intervention",
-		"unlock_gamemode_trials.description" : "Unlock a survivor.",
-		"unlock_drifter.name" : "Recycled",
-		"unlock_drifter.description" : "Recycle 6 drones in one playthrough.",
-		"unlock_arti.name" : "Anywhere, Everywhere",
-		"unlock_arti.description" : "Visit 10 unique stages.",
+		"available:item" : "Ten przedmiot będzie można znaleźć podczas gry.",
+		"available:equipment" : "To wyposażenie będzie można znaleźć podczas gry.",
+		"available:survivor" : "Ta postać jest teraz grywalna.",
+		"available:artifact" : "Ten artefakt może zostać włączony.",
+		"available:skin" : "Ta skórka może zostać wybrana.",
+		"available:skill" : "Ta umiejętność może zostać wybrana.",
+		"available:mode" : "Ten tryb jest teraz grywalny.",
+		"unlockHeader:item" : "ODBLOKOWANO NOWY PRZEDMIOT!",
+		"unlockHeader:equipment" : "ODBLOKOWANO NOWE WYPOSAŻENIE!",
+		"unlockHeader:survivor" : "ODBLOKOWANO NOWĄ POSTAĆ!",
+		"unlockHeader:artifact" : "ODBLOKOWANO NOWY ARTEFAKT!",
+		"unlockHeader:skin" : "ODBLOKOWANO NOWĄ SKÓRKĘ!",
+		"unlockHeader:skill" : "ODBLOKOWANO NOWĄ UMIEJĘTNOŚĆ!",
+		"unlockHeader:mode" : "ODBLOKOWANO NOWY TRYB!",
+		"trialDescTemplate" : "Ukończy Próbę Providence \"%s\".",
+		"trialFinalDescTemplate" : "Ukończ ostateczną Próbę Providence jako %s.",
+		"unlock_gamemode_trials.name" : "Objawienie",
+		"unlock_gamemode_trials.description" : "Odblokuj nową postać.",
+		"unlock_drifter.name" : "Recykling",
+		"unlock_drifter.description" : "Przetwórz 6 dronów w jednym podejściu.",
+		"unlock_arti.name" : "Zawsze, Wszędzie",
+		"unlock_arti.description" : "Odwiedź 10 różnych lokacji.",
 		"unlock_mocha.name" : "The Grind",
-		"unlock_mocha.description" : "Level up to level 20.",
-		"unlock_locked_jewel.name" : "Strength of Will",
-		"unlock_locked_jewel.description" : "Reach max barrier.",
-		"unlock_construct.name" : "Pre-Alpha",
-		"unlock_construct.description" : "Find this item hidden somewhere in the world to unlock it.",
-		"unlock_gasoline.name" : "Lizard Bait",
-		"unlock_gasoline.description" : "Defeat 20 Lemurians in one playthrough.",
+		"unlock_mocha.description" : "Osiągnij 20. Poziom",
+		"unlock_locked_jewel.name" : "Siła Woli",
+		"unlock_locked_jewel.description" : "Osiągnij maks. ilość bariery",
+		"unlock_construct.name" : "Pre-Alfa",
+		"unlock_construct.description" : "Znajdź ten przedmiot w świecie gry, aby go odblokować.",
+		"unlock_gasoline.name" : "Przynęta na Jaszczury",
+		"unlock_gasoline.description" : "Pokonaj 20 Lemurianów w jednym podejściu.",
 		"unlock_watch.name" : "Never Look Back",
-		"unlock_watch.description" : "Complete the 1st stage in under 5 minutes.",
-		"unlock_cape.name" : "Close Calls",
-		"unlock_cape.description" : "Commando: Dodge 7 lethal attacks.",
-		"unlock_doll.name" : "Still Standing",
+		"unlock_watch.description" : "Ukończ 1. etap w mniej niż 5 minut.",
+		"unlock_cape.name" : "Było Blisko",
+		"unlock_cape.description" : "Komando: Dodge 7 lethal attacks.",
+		"unlock_doll.name" : "Dalej na Nogach",
 		"unlock_doll.description" : "Survive a boss with less than 20% health.",
-		"unlock_backup.name" : "Mechanized Militia",
+		"unlock_backup.name" : "Zmechanizowana Milicja",
 		"unlock_backup.description" : "Have 4 drone helpers at once.",
-		"unlock_hoof.name" : "\"Is This Bugged?\"",
-		"unlock_hoof.description" : "Fail a shrine 3 times in a row.",
+		"unlock_hoof.name" : "\"To powinno tak działać?\"",
+		"unlock_hoof.description" : "Fail a shrine 3 razy pod rząd.",
 		"unlock_razor_penny.name" : "A Dime A Dozen",
-		"unlock_razor_penny.description" : "Kill 12 enemies simultaneously using the Gold-Plated Bomb.",
-		"unlock_bandit.name" : "Warrior",
-		"unlock_bandit.description" : "Beat the 3rd stage.",
-		"unlock_clover.name" : "Junk Collector",
-		"unlock_clover.description" : "Kill the Scavenger.",
+		"unlock_razor_penny.description" : "Zabij 12 przeciwników na raz Złotą Bombą.",
+		"unlock_bandit.name" : "Wojownik",
+		"unlock_bandit.description" : "Ukończ 3. etap.",
+		"unlock_clover.name" : "Zbieracz Złomu",
+		"unlock_clover.description" : "Zabij Zbieracza.",
 		"unlock_lopper.name" : "The Lone Survivor",
 		"unlock_lopper.description" : "Survive 40 minutes.",
 		"unlock_pillaged.name" : "Desperado",
 		"unlock_pillaged.description" : "Bandit: Kill a boss with 'Lights Out.'",
 		"unlock_hitlist.name" : "Classic Man",
 		"unlock_hitlist.description" : "Bandit: Reset your cooldown 15 times consecutively.",
-		"unlock_firemans.name" : "In the Soup",
-		"unlock_firemans.description" : "Survive in lava for 1 minute straight.",
+		"unlock_firemans.name" : "W Gorącej Wodzie Kąpany",
+		"unlock_firemans.description" : "Przetrwaj minutę w lawie.",
 		"unlock_toxin.name" : "Altered Genome",
-		"unlock_toxin.description" : "Find the illegal shipment.",
+		"unlock_toxin.description" : "Znajdź przemycony ładunek.",
 		"unlock_photon_jetpack.name" : "Zero Sum",
 		"unlock_photon_jetpack.description" : "End a Teleporter timer with 0 enemies on the map.",
-		"unlock_bottled_chaos.name" : "Activated",
-		"unlock_bottled_chaos.description" : "Use the same Equipment Activator 5 times.",
-		"unlock_mace.name" : "Untouchable",
-		"unlock_mace.description" : "Commando: Activate the 3rd teleporter without being hurt once.",
-		"unlock_enforcer.name" : "Before Titans",
-		"unlock_enforcer.description" : "Kill the Magma Worm, Wandering Vagrant, and Colossus.",
-		"unlock_spikestrip.name" : "Tank",
-		"unlock_spikestrip.description" : "Enforcer: Block 2000 damage total with your shield.",
-		"unlock_prescriptions.name" : "Turtle",
-		"unlock_prescriptions.description" : "Enforcer: Stay in Shield Mode for 5 minutes straight (in combat).",
-		"unlock_hand.name" : "Handy",
-		"unlock_hand.description" : "Find the robot janitor.",
+		"unlock_bottled_chaos.name" : "Aktywacja",
+		"unlock_bottled_chaos.description" : "Użyj tego samego Aktywatora Wyposażenia 5 razy.",
+		"unlock_mace.name" : "Nietykalny",
+		"unlock_mace.description" : "Komando: Użyj 3. teleportera bez otrzymywanie żadnych obrażeń.",
+		"unlock_enforcer.name" : "Przed Tytanami",
+		"unlock_enforcer.description" : "Pokonaj Robala Magmowego, Wędrownego Włóczęgę, i Kolosa.",
+		"unlock_spikestrip.name" : "Czołg",
+		"unlock_spikestrip.description" : "Ochroniarz: Zablokuj w sumie 2000 obrażeń tarczą.",
+		"unlock_prescriptions.name" : "Żółw",
+		"unlock_prescriptions.description" : "Ochroniarz: Stay in Shield Mode for 5 minutes straight (in combat).",
+		"unlock_hand.name" : "Pomocny",
+		"unlock_hand.description" : "Znajdź robota dozorcę.",
 		"unlock_armsrace.name" : "Hydraulic Press",
-		"unlock_armsrace.description" : "HAN-D: Kill 10 enemies simultaneously with FORCED_REASSEMBLY.",
-		"unlock_shield_generator.name" : "Like New",
-		"unlock_shield_generator.description" : "HAN-D: Beat the third stage without falling below 60% health.",
+		"unlock_armsrace.description" : "HAN-D: Zabij 10 przeciwników na raz WYMUSZONYM_PONOWNYM_MONTAŻEM.",
+		"unlock_shield_generator.name" : "Jak nowy",
+		"unlock_shield_generator.description" : "HAN-D: Ukończ 3. etap nie spadając poniżej 60% zdrowia.",
 		"unlock_hand_x3.name" : "Sagitta Aurum",
-		"unlock_hand_x3.description" : "HAN-D: Obtain a golden drone.",
-		"unlock_hand_v2.name" : "Deforestation",
-		"unlock_hand_v2.description" : "HAN-D: Kill 15 enemies at once using the Sawmerang.",
-		"unlock_pilot.name" : "Seasoned Wanderer",
-		"unlock_pilot.description" : "Collect 15 Monster Logs.",
+		"unlock_hand_x3.description" : "HAN-D: Znajdź złotego drona.",
+		"unlock_hand_v2.name" : "Wylesienie",
+		"unlock_hand_v2.description" : "HAN-D: Zabij 15 przeciwników na raz używając Piłarangu.",
+		"unlock_pilot.name" : "Wprawiony Włóczęga",
+		"unlock_pilot.description" : "Znajdź 15 Dzienników.",
 		"unlock_scarf.name" : "Rapidfire",
 		"unlock_scarf.description" : "Huntress: Achieve 200% attack speed.",
 		"unlock_instincts.name" : "Sixth Sense",
@@ -3778,40 +3777,40 @@
 		"unlock_enforcer_skin_p.name" : "Enforcer's Will",
 		"unlock_bandit_skin_p.name" : "Bandit's Cunning",
 		"unlock_hand_skin_p.name" : "HAN-D's Directive",
-		"unlock_engineer_skin_p.name" : "Engineer's Intellect",
+		"unlock_engineer_skin_p.name" : "Intelekt Inżyniera",
 		"unlock_miner_skin_p.name" : "Miner's Determination",
-		"unlock_sniper_skin_p.name" : "Sniper's Reflex",
-		"unlock_acrid_skin_p.name" : "Acrid's Hunger",
+		"unlock_sniper_skin_p.name" : "Refleks Snajpera",
+		"unlock_acrid_skin_p.name" : "Głód Acrida",
 		"unlock_mercenary_skin_p.name" : "Mercenary's Technique",
 		"unlock_loader_skin_p.name" : "Loader's Strength",
 		"unlock_chef_skin_p.name" : "Chef's Recipe",
-		"unlock_pilot_skin_p.name" : "Pilot's Focus",
+		"unlock_pilot_skin_p.name" : "Skupienie Pilota",
 		"unlock_arti_skin_p.name" : "Artificer's Hope",
-		"unlock_drifter_skin_p.name" : "Drifter's Spirit",
-		"unlock_commando_skin_s.name" : "Strange Prism: Pyrite",
-		"unlock_acrid_skin_s.name" : "Strange Prism: Calcium",
-		"unlock_acrid_skin_s2.name" : "Strange Prism: Obsidian",
-		"unlock_arti_skin_s.name" : "Strange Prism: Stasis",
-		"unlock_loader_skin_s.name" : "Strange Prism: Nebula",
-		"unlock_bandit_skin_s.name" : "Strange Prism: Snare",
-		"unlock_drifter_skin_s.name" : "Strange Prism: Pollen",
-		"unlock_huntress_skin_s.name" : "Strange Prism: Extinction",
-		"unlock_pilot_skin_s.name" : "Strange Prism: Napalm",
-		"unlock_mercenary_skin_s.name" : "Strange Prism: Malice",
+		"unlock_drifter_skin_p.name" : "Dusza Włóczęgi",
+		"unlock_commando_skin_s.name" : "Dziwny Odłamek: Piryt",
+		"unlock_acrid_skin_s.name" : "Dziwny Odłamek: Wapń",
+		"unlock_acrid_skin_s2.name" : "Dziwny Odłamek: Obsydian",
+		"unlock_arti_skin_s.name" : "Dziwny Odłamek: Stasis",
+		"unlock_loader_skin_s.name" : "Dziwny Odłamek: Nebula",
+		"unlock_bandit_skin_s.name" : "Dziwny Odłamek: Snare",
+		"unlock_drifter_skin_s.name" : "Dziwny Odłamek: Pyłek",
+		"unlock_huntress_skin_s.name" : "Dziwny Odłamek: Extinction",
+		"unlock_pilot_skin_s.name" : "Dziwny Odłamek: Napalm",
+		"unlock_mercenary_skin_s.name" : "Dziwny Odłamek: Malice",
 		"unlock_skin_prism_desc" : "Found this prism in the world.",
-		"alt_kills_1_desc" : "Defeat 3,000 enemies as %s.",
-		"alt_items_1_desc" : "Collect 300 items as %s.",
-		"alt_stages_1_desc" : "Complete 25 stages as %s.",
+		"alt_kills_1_desc" : "Pokonaj 3 000 wrogów jako %s.",
+		"alt_items_1_desc" : "Zbierz 300 przedmiotów jako %s.",
+		"alt_stages_1_desc" : "Ukończ 25 poziomów jako %s.",
 		"alt_condition" : "Albo: "
 	},
 
 	"gameOver" : {
 		"quote" : [
 			"Umarłeś. Może następnym razem Ci się uda..",
-			"zdechłeś XD",
+			"zmarłeś",
 			"MARTWY.",
 			"Rozbity.",
-			"Twoja rodzina nigdy nie dowie się jak zginąłeś.",
+			"Twoja rodzina nigdy nie dowie się, jak zginąłeś.",
 			"Twoja śmierć była bezbolesna.",
 			"Twoja śmierć była bardzo bolesna.",
 			"Zmarł w wyniku urazu głowy.",
@@ -3821,13 +3820,13 @@
 			"Zmiażdżony.",
 			"Pamiętaj, że poziom trudności zwiększa się z czasem.",
 			"Złamałeś wszystkie kości.",
-			"xd",
+			"To nie było aż TAK trudne...",
 			"zdechłeś",
 			"Trudno.",
 			"Pożywią się twoim ciałem.",
 			"Pamiętaj, aby używać swojego wyposażenia",
 			"Jesteś martwy.",
-			"Get styled upon.",
+			"Bywa.",
 			"Idziesz w stronę światła.",
 			"Oddałeś się w ręce próżni.",
 			"Do zobaczenia!",
