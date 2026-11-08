@@ -23,4 +23,4 @@ Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed j
 
 LUB
 
-Jeżeli masz Git na komputerze, sklonuj repozytorium bezpośrednio do folderu `\language`
+`git clone "https://github.com/Csha1/RyzykoDeszczuPowraca"`
