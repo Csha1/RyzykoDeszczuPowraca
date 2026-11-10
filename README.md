@@ -1,6 +1,20 @@
 # Ryzyko Deszczu Powraca
 Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed jedną osobę (Hiii) bez żadnego harmonogramu, kiedy mi się zachce nad nim pracować.
 
+### Progres
+
+- [ ] Postacie
+- [ ] Umiejętności
+- [x] Przedmioty
+- [x] Przeciwnicy
+- [x] Menu
+- [ ] Ustawienia
+
+#### Ekstra
+
+- [ ] Logs
+- [ ] Opisy przedmiotów na wzór innych wersji językowych
+
 ### Wersje
 - `polish` - normalna wersja spolszczenia
 - `polish_desc` - wersja z opisami przedmiotów podczas gry 
@@ -13,3 +27,4 @@ Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed j
 LUB
 
 `git clone "https://github.com/Csha1/RyzykoDeszczuPowraca"`
+
