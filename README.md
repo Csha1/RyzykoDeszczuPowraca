@@ -2,7 +2,6 @@
 Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed jedną osobę (Hiii) bez żadnego harmonogramu, kiedy mi się zachce nad nim pracować.
 
 ### Progres
-
 - [ ] Postacie
 - [ ] Umiejętności
 - [x] Przedmioty
@@ -11,7 +10,6 @@ Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed j
 - [ ] Ustawienia
 
 #### Ekstra
-
 - [ ] Logs
 - [ ] Opisy przedmiotów na wzór innych wersji językowych
 
