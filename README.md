@@ -16,7 +16,7 @@ Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed j
 - [ ] Opisy przedmiotów na wzór innych wersji językowych
 
 ### Wersje
-- `polish` - normalna wersja spolszczenia
+- `polish` - normalna wersja spolszczenia (zajmę się nią po ukończeniu wersji z napisami)
 - `polish_desc` - wersja z opisami przedmiotów podczas gry 
 
 ### "Instalacja" tłumaczenia
