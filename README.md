@@ -1,23 +1,25 @@
 # Ryzyko Deszczu Powraca
 Nieoficajalne spolszczenie do Risk of Rain Returns. Projekt jest robiony przed jedną osobę (Hiii) bez żadnego harmonogramu, kiedy mi się zachce nad nim pracować.
 
-### Progres
+## Progres
 - [ ] Postacie
-- [ ] Umiejętności
+- [x] Umiejętności
 - [x] Przedmioty
+- [ ] Opisy przedmiotów
 - [x] Przeciwnicy
 - [x] Menu
-- [ ] Ustawienia
+- [x] Ustawienia
+- [x] Multiplayer
 
 #### Ekstra
 - [ ] Logs
 - [ ] Opisy przedmiotów na wzór innych wersji językowych
 
-### Wersje
+## Wersje
 - `polish` - normalna wersja spolszczenia (zajmę się nią po ukończeniu wersji z napisami)
 - `polish_desc` - wersja z opisami przedmiotów podczas gry 
 
-### "Instalacja" tłumaczenia
+## "Instalacja" tłumaczenia
 1. Pobierz wybraną wersję tłumaczenia
 2. Skopiuj go to folderu `\language` w plikach lokalnych gry (domyślnie `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain Returns\language`)
 3. Wejdź do gry i wybierz język z menu w prawym górnym rogu
