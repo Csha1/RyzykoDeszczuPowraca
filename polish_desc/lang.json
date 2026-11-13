@@ -212,7 +212,7 @@
 		"shrineInfuse": "%s został tymczasowo natchniony mocą <%s>%s</c>.",
 		"bossKiller": "%s uzbroił <g>Wyrzutnię Atlas</c>. Cel namierzony."
 	},
-	"levelUp": "POZIOM W GÓRĘ",
+	"levelUp": "NOWY POZIOM!",
 	"revived": "WSKRZESZONY!",
 	"player": "Gracz",
 	"mpPlayer": "Gracz %s",
@@ -1053,8 +1053,8 @@
 		},
 		"lifeSavings": {
 			"name": "Oszczędności",
-			"pickup": "Generuje <y>1zł <c_stack>(+1zł na przedmiot)</c> co 3 sekundy. Zwiększa się z czasem.",
-			"description": "Generuje <y>1zł <c_stack>(+1zł na przedmiot)</c> co 3 sekundy. Zwiększa się z czasem.",
+			"pickup": "Generuje <y>$1 <c_stack>(+$1 na przedmiot)</c> co 3 sekundy. Zwiększa się z czasem.",
+			"description": "Generuje <y>$1 <c_stack>(+$1 na przedmiot)</c> co 3 sekundy. Zwiększa się z czasem.",
 			"destination": "moms house",
 			"date": "22/02/2056",
 			"story": "hi im billy and heer is money for mom thanks"
